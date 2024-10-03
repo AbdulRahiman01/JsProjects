@@ -1,0 +1,139 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    min-height: 100vh;
+    width: 100%;
+    background: linear-gradient(60deg,purple,coral);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.inputs{
+    height: 80px;
+    width: 40%;
+    background-color: #fff;
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 25px
+}
+.inputs:hover #input{
+    color:tomato
+}
+.inputs #input{
+    border: none;
+    outline: none;
+    font-size: 25px;
+    width: 240px;
+    height: 65px;
+}
+.inputs #btn{
+    height: 45px;
+    width: 28%;
+    margin-left: 30px;
+    border-radius: 5px;
+    background-color:cadetblue;
+    color: #fff;
+    font-size: 1rem;
+    border: 2px inset cyan;
+    cursor: pointer;
+}
+
+.inputs #btn:hover{
+    border-radius: 35px;
+}
+
+.display{
+    height: 80px;
+    width: 40%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 0px 15px;
+    position: relative;
+}
+.years{
+    height: 80px;
+    width: 17%;
+    background-color: #fff;
+    border-radius: 5px;
+    box-shadow: 5px 2px 15px black;
+}
+.months{
+    height: 80px;
+    width: 17%;
+    background-color: #fff;
+    border-radius: 5px;
+    box-shadow: 5px 2px 15px black;
+}
+.days{
+    height: 80px;
+    width: 17%;
+    background-color: #fff;
+    border-radius: 5px;
+    box-shadow: 5px 2px 15px black;
+}
+
+h1{
+    font-size: 45px;
+    text-align: center;
+    font-weight: bold;
+    text-shadow: 5px 0px 10px rgba(0, 0, 255, 0.377);
+}
+
+span{
+    text-align: center;
+    padding: 30px;
+    color:teal;
+    font-size: large;
+    font-weight: bold;
+    text-decoration: underline;
+}
+/* .display::before{
+    content: '';
+    height: 250px;
+    width: 250px;
+    background-color:rgba(255, 99, 71, 0.469);
+    position: absolute;
+    top: -340px;
+    left: -320px;
+    border-radius: 50px 0px 50px 0px;
+    animation: animate infinite 2s;
+}
+
+@keyframes animate {
+    from{
+        transform: rotate(360deg);
+    }
+    to{
+        transform: rotate(0deg);
+    }
+    
+}
+.display::after{
+    content: '';
+    height: 250px;
+    width: 250px;
+    background-color:rgba(128, 0, 128, 0.592);
+    position: absolute;
+    bottom: -220px;
+    right: -280px;
+    border-radius: 50px 0px 50px 0px;
+    animation: animate1 infinite 2s;
+}
+
+@keyframes animate1 {
+    from{
+        transform: rotate(0deg);
+    }
+    to{
+        transform: rotate(360deg);
+    }
+    
+} */
